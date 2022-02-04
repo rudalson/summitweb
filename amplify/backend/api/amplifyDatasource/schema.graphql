@@ -1,10 +1,11 @@
-type Task @model {
+enum PostStatus {
+  ACTIVE
+  INACTIVE
+}
+
+type Post @model {
   id: ID!
   title: String!
-  description: String
-  status: String
-}
-type Note @model {
-  id: ID!
-  content: String!
+  body: String!
+  status: PostStatus!
 }
