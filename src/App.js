@@ -42,7 +42,7 @@ function App() {
 
     const handleConnectionChange = () => {
       const condition = navigator.onLine ? 'online' : 'offline';
-      console.log(condition);a
+      console.log(condition);
       if (condition === 'online') {
         listPosts(setPosts);
       }
