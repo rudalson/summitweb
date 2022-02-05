@@ -1,0 +1,15 @@
+{
+  "amplify": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-summitweb-amplify-91406-authRole",
+      "UnauthRoleArn": "arn:aws:iam::818753535945:role/amplify-summitweb-amplify-91406-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::818753535945:role/amplify-summitweb-amplify-91406-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-summitweb-amplify-91406-deployment",
+      "UnauthRoleName": "amplify-summitweb-amplify-91406-unauthRole",
+      "StackName": "amplify-summitweb-amplify-91406",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:818753535945:stack/amplify-summitweb-amplify-91406/8a0456c0-8618-11ec-b154-0659c6d532e8",
+      "AmplifyAppId": "dlwf6rgse1ykv"
+    }
+  }
+}

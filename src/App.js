@@ -4,6 +4,10 @@ import './App.css';
 import { DataStore, Predicates } from '@aws-amplify/datastore';
 import { Post, PostStatus } from './models';
 
+import Amplify from "@aws-amplify/core";
+import awsconfig from "./aws-exports";
+Amplify.configure(awsconfig);
+
 function onCreate(title, body) {
   console.log('body = ', body);
   DataStore.save(
@@ -38,7 +42,7 @@ function App() {
 
     const handleConnectionChange = () => {
       const condition = navigator.onLine ? 'online' : 'offline';
-      console.log(condition);
+      console.log(condition);a
       if (condition === 'online') {
         listPosts(setPosts);
       }
